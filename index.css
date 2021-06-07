@@ -218,6 +218,7 @@ button {
         align-items:center;
         width:400px;
         align-self:center;
+        margin-top:20px;
     }
 
     #card-number {
