@@ -1,5 +1,6 @@
 
 
+
 body {
     background-color:#D0D0D0;
     font-size:18px;
@@ -105,7 +106,7 @@ button {
     font-weight:700;
 }
 
-@media (max-width :499px) {
+@media screen and (max-width :499px) {
     #body-container {
         width:100%;
         -ms-transform: translate(0, -50%);
@@ -178,7 +179,7 @@ button {
 
 
 
-@media (min-width :500px) {
+@media screen and (min-width :500px) {
     #body-container {
         width:500px;
         left:50%;
@@ -263,7 +264,25 @@ button {
     }
 }
 
-
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  #body-container {
+        zoom: 1.5;
+        -moz-transform: scale(1.5);/* Firefox Property */
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(1.5);/* Opera Property */
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(1.5);/* Safari Property */
+        -webkit-transform-origin: 0 0;
+        transform: scale(1.5); /* Standard Property */
+        transform-origin: 0 0;  /* Standard Property */
+    }
+}
 
 #unfeatured {
     display:none;
