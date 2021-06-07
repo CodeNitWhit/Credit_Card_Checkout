@@ -105,7 +105,7 @@ button {
     font-weight:700;
 }
 
-@media (max-width :499px), (orientation:portrait) {
+@media (max-width :499px) {
     #body-container {
         width:100%;
         -ms-transform: translate(0, -50%);
@@ -178,7 +178,7 @@ button {
 
 
 
-@media (min-width :500px) and (orientation:landscape) {
+@media (min-width :500px) {
     #body-container {
         width:500px;
         left:50%;
