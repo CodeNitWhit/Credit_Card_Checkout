@@ -293,6 +293,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 #unfeatured {
+    display:none;
     position:absolute;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
