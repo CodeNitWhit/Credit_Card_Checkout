@@ -1,5 +1,8 @@
+
+
 body {
     background-color:#D0D0D0;
+    font-size:18px;
 }
 
 #body-container {
@@ -22,7 +25,7 @@ h1, h2 {
 }
 
 h1 {
-    font: normal normal normal 35px Georgia;
+    font: normal normal normal 39px Georgia;
     padding-top:20px;
     color:#3AC7C4;
 }
@@ -66,14 +69,17 @@ input {
     border-radius: 3px;
     border-style:solid;
     border-width:0.5px;
+    font-size:20px;
+    padding:5px;
 }
 
 button {
-    height:40px;
+    height:55px;
     color:#ffffff;
     border:none;
     border-radius: 5px;
     padding: 0 15px;
+    font-size:20px;
 }
 
 #card-pay {
@@ -181,7 +187,7 @@ button {
     }
 
     .totals-text {
-        font: normal normal normal 14px Helvetica, sans-serif;
+        font: normal normal normal 20px Helvetica, sans-serif;
     }
 
     #totals {
@@ -189,11 +195,11 @@ button {
     }
 
     .credit-card {
-        width:250px;
+        width:350px;
     }
 
     h2 {
-        font: normal normal normal 10px Georgia;
+        font: normal normal normal 16px Georgia;
     }
 
     form {
@@ -210,48 +216,48 @@ button {
         flex-direction:row;
         justify-content:space-between;
         align-items:center;
-        width:300px;
+        width:400px;
         align-self:center;
     }
 
     #card-number {
         position:relative;
-        top:-140px;
-        left:145px;
-        width:185px;
+        top:-200px;
+        left:105px;
+        width:260px;
     }
 
     #cardholder-name {
         position:relative;
-        top:-122px;
-        left:130px;
-        width:115px;
+        top:-182px;
+        left:100px;
+        width:130px;
     }
 
     #exp-month {
         position:relative;
-        top:-102px;
-        left:80px;
+        top:-152px;
+        left:10px;
         width:20px;
     }
     #exp-year {
         position:relative;
-        top:-102px;
-        left:85px;
+        top:-152px;
+        left:20px;
         width:20px;
     }
 
     #cvv {
         width:35px;
         position:relative;
-        top:-95px;
+        top:-155px;
         left:210px;
     }
 
     #zip-code {
         width:65px;
         position:relative;
-        top:-95px;
+        top:-155px;
         left:200px;
     }
 }
